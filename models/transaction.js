@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-
 const Schema = mongoose.Schema;
 
 const transactionSchema = new Schema(
@@ -16,8 +15,11 @@ const transactionSchema = new Schema(
     date: {
       type: Date,
       default: Date.now
-    }
-  }
+    },
+  },
+  {
+    toJSON: {virtuals: true},
+}
 );
 
 const Transaction = mongoose.model("Transaction", transactionSchema);
