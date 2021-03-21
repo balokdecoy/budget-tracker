@@ -10,10 +10,12 @@ request.onupgradeneeded = function (event) {
 
 request.onsuccess = function (event) {
   db = event.target.result;
+  console.log(request.result);
 
   if (navigator.onLine) {
     checkDatabase();
   }
+  
 };
 
 request.onerror = function (event) {
@@ -32,9 +34,7 @@ function saveRecord(record) {
 function checkDatabase() {
  
   const transaction = db.transaction(["pending"], "readwrite");
-
   const store = transaction.objectStore("pending");
-
   const getAll = store.getAll();
 
   getAll.onsuccess = function () {
