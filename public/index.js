@@ -61,7 +61,7 @@ function populateChart() {
     myChart.destroy();
   }
 
-  const ctx = document.getElementById('my-chart').getContext('2d');
+  const ctx = document.getElementById('myChart').getContext('2d');
 
   myChart = new Chart(ctx, {
     type: 'line',
