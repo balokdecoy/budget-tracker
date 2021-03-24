@@ -19,7 +19,7 @@ mongoose.connect(
     useFindAndModify: false
   }
 ).then(() => {
-  console.log('connected')
+  console.log('Connected to MongoDB')
 }).catch(error => {
   console.log(error);
 });
