@@ -24,7 +24,7 @@
 
   ## Description
 
-  A budget-tracking web application with offline functionality. 
+  A budget-tracking web application built in React, with offline functionality. 
 
   ## Screenshos
 
