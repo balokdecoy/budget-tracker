@@ -6,9 +6,13 @@
 
   - [Description](#description)
 
-  - [Installation](#installation)
+  - [Deployed](#deployed)
 
-  - [Usage](#usage)
+  - [Screenshots](#screenshots)
+
+  - [Technologies](#technologies)
+
+  - [Installation](#installation)
 
   - [Contributing](#contributing)
 
@@ -20,16 +24,38 @@
 
   ## Description
 
-  A budget-tracking progressive web application
+  A budget-tracking web application with offline functionality. 
 
-  ## Installation
+  ## Screenshos
 
-  ```bash
+  ![screenshots](./public/screenshots/dashboard.png)
+
+  ## Technologies
+
+  -React
+
+  -JavaScript
+
+  -MongoDB
+
+  -Mongoose
+
+  -Morgan
+
+  -Node.js
+
+  -Nodemon
+
+  -Express
+
+  -HTML
   
-  ```
-  ## Usage
+  -CSS
 
-  
+  ## Deployed
+
+  https://damp-lake-65220.herokuapp.com/ 
+
 
   ## Contributing
 
@@ -37,10 +63,12 @@
 
   ## Tests
 
-  ```bash
-  
+  To test offline functionality, disconnect from the internet. DO NOT RELOAD THE PAGE. 
 
-  ```
+  Continue to enter your transactions as normal. 
+
+  Reconnect to the internet. The backend database will update and save your content when you reconnect. 
+
   ## Questions
 
   Visit my Github profile at http://www.github.com/balokdecoy.
